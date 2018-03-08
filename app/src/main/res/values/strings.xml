@@ -4,4 +4,8 @@
     <string name="title_home">Home</string>
     <string name="title_search">Search</string>
     <string name="title_profile">Profile</string>
+
+    <string name="home_fragment_text">Home Fragment</string>
+    <string name="search_fragment_text">Search Fragment</string>
+    <string name="profile_fragment_text">Profile Fragment</string>
 </resources>
