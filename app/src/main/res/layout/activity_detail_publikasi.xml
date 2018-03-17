@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skripsi.android.publikasi.DetailPublikasiActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="142dp"
+            android:layout_height="182dp"
+            android:layout_margin="3dp"
+            app:srcCompat="@mipmap/cover_publikasi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="3dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="statistik Kriminal 2017 "
+                android:textAllCaps="true"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nomor Katalog : "
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4401002"
+                    android:textColor="@android:color/holo_red_dark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nomor Publikasi : "
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="04330.1701"
+                    android:textColor="@android:color/holo_red_dark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Rilis : "
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017-12-22"
+                    android:textColor="@android:color/holo_red_dark" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ukuran File : "
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6.6 MB"
+                    android:textColor="@android:color/holo_red_dark" />
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/primaryDarkColor"
+                android:text="baca" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:text="Publikasi ini menyajikan gambaran umum mengenai tingkat perkembangan kriminalitas di Indonesia selama periode tahun 2014-2016. Informasi yang disajikan mencakup tiga aspek mendasar, yaitu kejadian tindak kriminalitas, pelaku, dan korban. Publikasi ini juga menyajikan gambaran mengenai tindak kekerasan lainnya berupa kejadian perkelahian massal serta gambaran kondisi yang terjadi saat ini. Data yang disajikan diperoleh dari tiga sumber data yaitu dari Kepolisian Negara Republik Indonesia, Survei Sosial Ekonomi Nasional (Susenas), dan Potensi Desa."
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/primaryTextColor"
+        android:textAlignment="textEnd"
+        android:layout_gravity="end" />
+
+</LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

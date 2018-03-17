@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.skripsi.android.publikasi", appContext.getPackageName());
+        assertEquals("com.skripsi.android.Publikasi", appContext.getPackageName());
     }
 }

@@ -7,6 +7,10 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 
+import com.skripsi.android.publikasi.fragment.HomeFragment;
+import com.skripsi.android.publikasi.fragment.ProfileFragment;
+import com.skripsi.android.publikasi.fragment.SearchFragment;
+
 public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
