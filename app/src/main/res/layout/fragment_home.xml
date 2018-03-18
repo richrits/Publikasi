@@ -13,20 +13,55 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <TextView
+
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Daftar Publikasi"
-                android:padding="10dp"
-                android:textSize="16dp"
-                android:textColor="@color/primaryTextColor"/>
+                android:orientation="vertical"
+                android:layout_margin="3dp"
+                android:elevation="3dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Daftar Publikasi"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="16dp" />
 
 
                 <android.support.v7.widget.RecyclerView
-                    android:id="@+id/recyclerView"
+                    android:id="@+id/recyclerViewList"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="horizontal"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="3dp"
+                android:elevation="3dp">
+
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"/>
+                    android:padding="10dp"
+                    android:text="Rekomendasi Publikasi"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="16dp" />
+
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerViewRcmd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="horizontal"
+                    />
+
+            </LinearLayout>
 
         </LinearLayout>
 
