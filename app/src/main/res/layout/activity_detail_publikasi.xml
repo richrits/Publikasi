@@ -19,11 +19,12 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/cover_publikasi"
             android:layout_width="142dp"
             android:layout_height="182dp"
             android:layout_margin="3dp"
-            app:srcCompat="@mipmap/cover_publikasi" />
+            app:srcCompat="@mipmap/cover_publikasi"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -38,7 +39,8 @@
                 android:text="statistik Kriminal 2017 "
                 android:textAllCaps="true"
                 android:textColor="@color/primaryTextColor"
-                android:textSize="17sp" />
+                android:textSize="17sp"
+                android:id="@+id/judul_publikasi"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -52,6 +54,7 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    android:id="@+id/nomor_katalog"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="4401002"
@@ -70,10 +73,11 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    android:id="@+id/nomor_publikasi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="04330.1701"
-                    android:textColor="@android:color/holo_red_dark" />
+                    android:textColor="@android:color/holo_green_dark" />
             </LinearLayout>
 
             <LinearLayout
@@ -88,10 +92,11 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    android:id="@+id/tanggal_rilis"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2017-12-22"
-                    android:textColor="@android:color/holo_red_dark" />
+                    android:textColor="@android:color/holo_orange_dark" />
             </LinearLayout>
 
             <LinearLayout
@@ -106,17 +111,31 @@
                     android:textSize="14sp" />
 
                 <TextView
+                    android:id="@+id/ukuran_publikasi"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="6.6 MB"
-                    android:textColor="@android:color/holo_red_dark" />
+                    android:textColor="@android:color/holo_blue_bright" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primaryDarkColor"
+                    android:text="download"
+                    android:id="@+id/download"
+                    android:layout_margin="4dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/primaryDarkColor"
+                    android:text="baca"
+                    android:id="@+id/baca"
+                    android:layout_margin="4dp"/>
             </LinearLayout>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@color/primaryDarkColor"
-                android:text="baca" />
         </LinearLayout>
 
     </LinearLayout>
@@ -127,6 +146,7 @@
         android:text="Publikasi ini menyajikan gambaran umum mengenai tingkat perkembangan kriminalitas di Indonesia selama periode tahun 2014-2016. Informasi yang disajikan mencakup tiga aspek mendasar, yaitu kejadian tindak kriminalitas, pelaku, dan korban. Publikasi ini juga menyajikan gambaran mengenai tindak kekerasan lainnya berupa kejadian perkelahian massal serta gambaran kondisi yang terjadi saat ini. Data yang disajikan diperoleh dari tiga sumber data yaitu dari Kepolisian Negara Republik Indonesia, Survei Sosial Ekonomi Nasional (Susenas), dan Potensi Desa."
         android:paddingRight="5dp"
         android:paddingLeft="5dp"
+        android:id="@+id/detail_publikasi"
         android:textColor="@color/primaryTextColor"
         android:textAlignment="textEnd"
         android:layout_gravity="end" />
